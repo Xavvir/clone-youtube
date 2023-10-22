@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav1 {
+    padding-left: 24px;
+    letter-spacing: 32px;
+}
+
+.nav2 {
+    display: flex;
+}
+
+#search {
+    background-image: url(/images/magnifier_icon-icons.com_48267.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 28px;
+    border: solid darkgray 0.9px;
+    cursor: pointer;
+}
+
+#titulo {
+    padding-left: 75px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.inf{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div h4{
+    width: 91px;
+}
